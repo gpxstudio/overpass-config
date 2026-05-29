@@ -6,7 +6,7 @@ docker run \
   -v ./db/:/db \
   -i -t \
   --name overpass \
-  -p 80:80 \
+  -p 8989:80 \
   wiktorn/overpass-api
 
 docker start overpass
