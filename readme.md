@@ -29,6 +29,10 @@ sudo cp overpass.conf /etc/nginx/sites-enabled/
 sudo nginx -s reload
 ```
 
+### Certbot
+
+Use certbot to enable HTTPS, follow instructions here: https://certbot.eff.org/instructions.
+
 ### Infrastructure
 
-1 server with xxxGB of RAM and 2 xxxGB SSD.
+1 server with 128GB of RAM and 2 960GB SSD.
