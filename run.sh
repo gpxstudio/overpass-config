@@ -2,6 +2,8 @@
 
 mkdir -p db
 
+docker rm -f $(docker ps -aq)
+
 docker run \
   -v ./db/:/db \
   -i -t \
